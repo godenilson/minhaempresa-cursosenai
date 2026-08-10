@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eclipse Interactive - Cadastro</title>
+
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<a href="empresa.html" class="voltar">
+    ⬅ Voltar ao site da Eclipse Interactive
+</a>
+<body>
+
+<div class="container">
+
+    <h1>🌑 Eclipse Interactive</h1>
+    <h2>Cadastro de Jogador</h2>
+
+    <form>
+
+        <label>Nome Completo</label>
+        <input type="text" id="nome" placeholder="Digite seu nome">
+
+        <label>E-mail</label>
+        <input type="email" id="email" placeholder="Digite seu e-mail">
+
+        <label>CEP</label>
+        <input type="text" id="cep" placeholder="00000-000">
+
+        <label>Rua</label>
+        <input type="text" id="rua" readonly>
+
+        <label>Bairro</label>
+        <input type="text" id="bairro" readonly>
+
+        <label>Cidade</label>
+        <input type="text" id="cidade" readonly>
+
+        <label>Número</label>
+        <input type="number" id="numero">
+
+        <label>Jogo Preferido</label>
+
+        <select id="jogo">
+            <option>Selecione...</option>
+            <option>Eclipse Racing</option>
+            <option>Shadow Legacy</option>
+            <option>Galaxy Wars</option>
+            <option>Dark Horizon</option>
+            <option>Future City</option>
+        </select>
+
+        <button type="button">Cadastrar</button>
+
+    </form>
+
+</div>
+
+<script src="cadastro.js"></script>
+</a>
+</body>
+</html>
